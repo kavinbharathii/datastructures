@@ -106,8 +106,9 @@ export default {
     }
 
     .form-container,
-    .queue-view {
-        width: 90%;
+    .queue-view,
+    .stack-element {
+        width: 85vw;
     }
 }
 </style>
