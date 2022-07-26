@@ -99,4 +99,10 @@ export default {
 .blue {
     background-color: var(--blue);
 }
+
+@media only screen and (max-width: 700px) {
+    #stack {
+        flex-direction: column;
+    }
+}
 </style>
