@@ -33,5 +33,11 @@ export default {
 	top: 30px;
 
 }
+
+@media only screen and (max-width: 700px) {
+	.mode {
+		width: 20%;
+	}
+}
 </style>
 

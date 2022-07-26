@@ -103,5 +103,10 @@ export default {
     #queue {
         flex-direction: column;
     }
+
+    .form-container,
+    .queue-view {
+        width: 90%;
+    }
 }
 </style>

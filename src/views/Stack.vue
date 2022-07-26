@@ -104,5 +104,10 @@ export default {
     #stack {
         flex-direction: column;
     }
+
+    .form-container,
+    .queue-view {
+        width: 90%;
+    }
 }
 </style>
