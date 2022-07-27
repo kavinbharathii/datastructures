@@ -32,8 +32,8 @@ export default {
         <!-- <form @submit.prevent="pushqueue"> -->
         <form>
             <input v-model="pushItem" class="input-field">
-            <button class="submit-button red" @click.prevent="pushqueue">Push</button>
-            <button class="submit-button blue" @click.prevent="popqueue">Pop</button>
+            <button class="submit-button red" @click.prevent="pushqueue">enqueue</button>
+            <button class="submit-button blue" @click.prevent="popqueue">dequeue</button>
         </form>
     </div>
     <div class="queue-view">
